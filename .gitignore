@@ -1,0 +1,17 @@
+# 虛擬環境
+.venv/
+__pycache__/
+*.pyc
+
+# 機密資訊（帳密、API key、cookie）
+.env
+
+# 爬下來的資料、log（通常很大，不進版控）
+data/
+output/
+logs/
+*.log
+
+# 編輯器
+.vscode/settings.json
+.DS_Store
